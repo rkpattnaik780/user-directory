@@ -1,5 +1,5 @@
 import { Routes, Route } from 'react-router-dom';
-import { UserList } from './pages/UserList';
+import { UserList } from './pages/UserList/UserList';
 import { UserPage } from './pages/UserPage';
 
 export const AppRoutes = () => (

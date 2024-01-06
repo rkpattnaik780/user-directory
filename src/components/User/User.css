@@ -1,0 +1,16 @@
+.user-card {
+    background-color: rgb(194, 194, 214);
+    border: 1px solid black;
+    border-radius: 0.5em;
+    margin: 1em;
+    padding: 0.5em;
+    min-width: 400px;
+    display:flex;
+    justify-content: space-between;
+    text-decoration: none;
+    color: #000000;
+}
+
+.user-card > span {
+    display: inline-block;
+}
