@@ -35,15 +35,9 @@ export const UserHeader = () => {
     }, []);
 
     useEffect(() => {
-
-        console.log("selected country effect called");
-        console.log(selectedCountry);
-
         if(selectedCountry) {
             fetch(`${CountriesURL}/${selectedCountry}`).then(res => res.json()).then(data => {
-                console.log("fetch datetime - ", data.datetime);
                 const formattedTime = formatTimestamp(selectedCountry);
-                console.log("formatted time - ", formattedTime);
                 setCurrentTime(formattedTime);
             });
         }
