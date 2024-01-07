@@ -1,6 +1,6 @@
 import { Routes, Route } from 'react-router-dom';
 import { UserList } from './pages/UserList/UserList';
-import { UserPage } from './pages/UserPage';
+import { UserPage } from './pages/UserPage/UserPage';
 
 export const AppRoutes = () => (
     <Routes>

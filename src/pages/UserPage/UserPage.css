@@ -1,0 +1,23 @@
+.user-page {
+    margin: auto;
+    width: 90%;
+}
+
+.user-page-header {
+    text-align: center;
+}
+
+.user-posts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 1em;
+    flex-direction: row;
+    margin-top: 2em;
+}
+
+@media (max-width: 600px) {
+    .user-posts {
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,11 @@
+.user-detail {
+    display: flex;
+    border: 1px solid black;
+    padding: 1em;
+    justify-content: space-between;
+    border-radius: 0.5em;
+}
+
+.user-detail > div {
+    display: inline-block;
+}
