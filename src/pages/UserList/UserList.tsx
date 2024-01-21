@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-import { User } from "../../components/User/User";
-import { PostsURL, UsersURL } from "../../constant/constant";
+import { User } from "components/User";
+import { PostsURL, UsersURL } from "constant";
 import "./UserList.css";
 
 export const UserList = () => {

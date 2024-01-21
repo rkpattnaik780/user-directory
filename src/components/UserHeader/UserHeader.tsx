@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import "./UserHeader.css";
 import { useNavigate } from "react-router-dom";
-import { CountriesURL } from "../../constant/constant";
+import { CountriesURL } from "constant";
 
 const formatTimestamp = (timeZone: string) => {
 

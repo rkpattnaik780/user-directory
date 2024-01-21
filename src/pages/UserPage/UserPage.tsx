@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react";
-import { Post } from "../../components/Post/Post";
-import { UserDetail } from "../../components/UserDetail/UserDetail";
-import { UserHeader } from "../../components/UserHeader/UserHeader";
+import { Post } from "components/Post";
+import { UserDetail } from "components/UserDetail";
+import { UserHeader } from "components/UserHeader";
 import "./UserPage.css";
-import { PostsURL, UsersURL } from "../../constant/constant";
+import { PostsURL, UsersURL } from "constant";
 import { useParams } from 'react-router-dom';
 
 export const UserPage = () => {
